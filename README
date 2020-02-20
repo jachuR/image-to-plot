@@ -2,6 +2,8 @@ The goal of this project is to convert the image into a data frame and then disp
 
 The function was created to prepare the data set for the exercise "How different algorithms see the flags", but also work for other types of images.
 
+![](https://github.com/jachuR/image-to-plot/blob/master/Samples/norway.jpeg?raw=true)
+
 Reference:
 - k-Means Clustering on an Image:
   https://www.r-bloggers.com/r-k-means-clustering-on-an-image/

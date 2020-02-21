@@ -2,9 +2,18 @@ The goal of this project is to convert the image into a data frame and then disp
 
 The function was created to prepare the data set for the exercise "How different algorithms see the flags", but also work for other types of images.
 
-<img src="https://github.com/jachuR/image-to-plot/blob/master/Samples/norway.jpeg" width="200">
+<div class="row">
+  <div class="column">
+    <img src="https://github.com/jachuR/image-to-plot/blob/master/Samples/norway.jpeg" width="200">
 
-<img src="https://github.com/jachuR/image-to-plot/blob/master/Samples/starry_night.jpeg" width="200">
+  </div>
+  <div class="column">
+    <img src="https://github.com/jachuR/image-to-plot/blob/master/Samples/starry_night.jpeg" width="200">
+
+  </div>
+</div>
+
+
 
 Reference:
 - k-Means Clustering on an Image:

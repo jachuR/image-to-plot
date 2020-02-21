@@ -7,7 +7,7 @@ if (require(pacman) == FALSE) {
 pacman::p_load(imager, dplyr ,plotly, tidyr, ggplot2)
 
 
-# create fucntion for convert image to plot -------------------------------
+# create a function to convert an image to a plot -------------------------------
 
 
 # inputs: file_path - .jpg, .png or other acceptable by imager
@@ -27,7 +27,7 @@ pngToPlot  <- function(file_path, colours_n, algorithm = c("Hartigan-Wong","Lloy
   #  formula of the form LHS ~ RHS
 
   
-  # transform RGB values to hex names of colours
+  # transform RGB values to hex names of colors
   
   img_DT_chan_dcast$colour <- apply(img_DT_chan_dcast, 1, function(row){  
     hex <- rgb(row[3], row[4], row[5], maxColorValue=1) # max value for evry chanel is 1 insted of 255
@@ -38,7 +38,7 @@ pngToPlot  <- function(file_path, colours_n, algorithm = c("Hartigan-Wong","Lloy
   
   
   
-  # using kmeans to reduce number of colours to the desired amount
+  # using kmeans to reduce the number of colors to the desired amoun
   
   
   clusters <-  kmeans(img_DT_chan_dcast[c('R','G','B')],centers =  colours_n,iter.max = 50,algorithm = algorithm,nstart = 3)
@@ -57,7 +57,7 @@ pngToPlot  <- function(file_path, colours_n, algorithm = c("Hartigan-Wong","Lloy
   
   img_clusters_samp <- sample_n(img_clusters,sample_size) # sampling 
   
-  # create theme for ggplot
+  # create a theme for ggplot
   plotTheme <- function() {
     theme(
       panel.background = element_rect(

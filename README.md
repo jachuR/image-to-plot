@@ -2,7 +2,7 @@ The goal of this project is to convert the image into a data frame and then disp
 
 The function was created to prepare the data set for the exercise "How different algorithms see the flags", but also work for other types of images.
 
-![](https://github.com/jachuR/image-to-plot/blob/master/Samples/starry_night.jpeg?raw=true)
+<img src="https://github.com/jachuR/image-to-plot/blob/master/Samples/starry_night.jpeg" width="200">
 
 Reference:
 - k-Means Clustering on an Image:

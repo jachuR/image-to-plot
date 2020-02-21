@@ -9,6 +9,6 @@ Reference:
   https://www.r-bloggers.com/r-k-means-clustering-on-an-image/
 - flags task description and manual method for creating data set:
   https://rstudio-pubs-static.s3.amazonaws.com/334419_79f6b26f117b442d932346effec3d491.html
--same for norway flag:
+- same for norway flag:
   https://github.com/JoanClaverol/ubiqum_fun_with_flags/blob/master/scripts/norway_flag_flagPartition.R
 
